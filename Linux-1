@@ -7,3 +7,5 @@
 => To replace a string in a whole file       :%s/string1/newstring/g
 same work we can do by sed command ( sed -i "s/word/word1/g" /root/data.csv) here i in place of /root/data.csv we have to give the actual path
 => if you are inside a file and made some changes inside but later you know its a producion file then press u to undo ,if you want the chnages again the ctrl +r for redo
+=> o to edit below line shift +o above line
+=> shift +I to go starting of a line shift+A end of a line
