@@ -4,3 +4,4 @@
 => To search any word /word,then enter press n for next and ?word enter press n for next
 => if my cursor is on a particular word then press * and n for forward searching 
 => if my cursor is on a particular word the npress # and then n for reverse searching
+=> To replace a string in a whole file       :%s/string1/newstring/g
