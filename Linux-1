@@ -12,4 +12,6 @@ same work we can do by sed command ( sed -i "s/word/word1/g" /root/data.csv) her
 => :e! - not to save  changes
 => :q! - not to save changes
 => to delete a single character where the cursor is then press x
-=>
+=> press r to replace a single character
+=> press dd to delete lines.......
+=> type 12 and press dd it will delete 12 lines
