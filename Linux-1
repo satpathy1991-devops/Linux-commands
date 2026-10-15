@@ -16,4 +16,4 @@ same work we can do by sed command ( sed -i "s/word/word1/g" /root/data.csv) her
 => press dd to delete lines.......
 => type 12 and press dd it will delete 12 lines
 => dd then p to cut and paste below cursor line shift+p above cursor line 
-=>
+=> :%d - to delete a full file
