@@ -280,26 +280,7 @@ This opens a Kubernetes deployment manifest for editing.
 9. Save and exit.
 10. Reopen the file and verify the changes.
 
-## Self notes
-##  VI - editor
-=> To go to bottom shift + G
-=> to go again top  gg
-=> To search any word /word,then enter press n for next and ?word enter press n for next
-=> if my cursor is on a particular word then press * and n for forward searching 
-=> if my cursor is on a particular word the npress # and then n for reverse searching
-=> To replace a string in a whole file       :%s/string1/newstring/g
-same work we can do by sed command ( sed -i "s/word/word1/g" /root/data.csv) here in place of /root/data.csv we have to give the actual path
-=> if you are inside a file and made some changes inside but later you know its a producion file then press u to undo ,if you want the chnages again the ctrl +r for redo
-=> o to edit below line shift +o above line
-=> shift +I to go starting of a line shift+A end of a line
-=> :e! - not to save  changes
-=> :q! - not to save changes
-=> to delete a single character where the cursor is then press x
-=> press r to replace a single character
-=> press dd to delete lines.......
-=> type 12 and press dd it will delete 12 lines
-=> dd then p to cut and paste below cursor line shift+p above cursor line 
-=> :%d - to delete a full file 
+
 
 ## Conclusion
 
