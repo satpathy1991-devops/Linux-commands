@@ -11,3 +11,5 @@ same work we can do by sed command ( sed -i "s/word/word1/g" /root/data.csv) her
 => shift +I to go starting of a line shift+A end of a line
 => :e! - not to save  changes
 => :q! - not to save changes
+=> to delete a single character where the cursor is then press x
+=>
