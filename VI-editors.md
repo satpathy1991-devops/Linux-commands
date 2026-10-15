@@ -281,7 +281,7 @@ This opens a Kubernetes deployment manifest for editing.
 10. Reopen the file and verify the changes.
 
 ## Self notes
-## VI - editor
+##  VI - editor
 => To go to bottom shift + G
 => to go again top  gg
 => To search any word /word,then enter press n for next and ?word enter press n for next
@@ -299,7 +299,7 @@ same work we can do by sed command ( sed -i "s/word/word1/g" /root/data.csv) her
 => press dd to delete lines.......
 => type 12 and press dd it will delete 12 lines
 => dd then p to cut and paste below cursor line shift+p above cursor line 
-=> :%d - to delete a full file
+=> :%d - to delete a full file 
 
 ## Conclusion
 
