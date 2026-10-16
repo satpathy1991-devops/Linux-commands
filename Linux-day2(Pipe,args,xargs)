@@ -7,3 +7,4 @@
 3.To sort and get unique values
  cat name.txt | sort
  cat name.txt | sort | uniq
+4. 
