@@ -1,1 +1,9 @@
-
+1. Find no. of files present in a directory
+   ls -1 | wc -l 
+-1 with ls = number one.
+-l with wc = lowercase letter L.
+2. To combine and sort 
+  cat name.txt list.txt | sort
+3.To sort and get unique values
+ cat name.txt | sort
+ cat name.txt | sort | uniq
