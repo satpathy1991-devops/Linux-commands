@@ -7,4 +7,21 @@
 3.To sort and get unique values
  cat name.txt | sort
  cat name.txt | sort | uniq
-4. 
+N.B- Before running uniq command ,data must be sorted
+4. We have a 50 nos. line ,but we want only first 20 lines then
+    cat file.txt | head -21 (to get first 20 lines)
+    cat file.txt | tail -5 ( to get last 5 lines)
+    cat file.txt | head -21 | tail -5 ( from 1 to 20 then,20 to 15 lines data)
+5. netstat | more
+  Useful keys:
+- Space — next screen
+- Enter — next line
+- q — quit
+6. netstat | less
+  Useful keys:
+- Space — next screen
+- b — previous screen
+- ↑ / ↓ — move up or down
+- /word — search forward for a word
+- n — next search match
+- q — quit
