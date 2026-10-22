@@ -179,8 +179,50 @@ xargs touch < country.txt
 
 ## Quick Revision
 
-| Command | Purpose |
-|---|---|
-| `ls -1 \| wc -l` | Count visible directory entries |
-| `cat a.txt b.txt \| sort` | Combine and sort two files |
-| `sort name.txt \| uniq`
+Command
+
+Purpose
+
+ls -1 | wc -l
+
+Count visible directory entries
+
+cat a.txt b.txt | sort
+
+Combine and sort two files
+
+sort name.txt | uniq
+
+Sort and remove adjacent duplicates
+
+head -20 file.txt
+
+First 20 lines
+
+tail -5 file.txt
+
+Last 5 lines
+
+head -20 file.txt | tail -5
+
+Lines 16–20
+
+ls | tee files.txt
+
+Display and save output
+
+ls | tee files.txt | wc -l
+
+Save, display and count output lines
+
+ls | xargs echo "hi"
+
+Pass listing entries as arguments to echo
+
+xargs touch < country.txt
+
+Create files using names from a text file
+
+Practice Tip
+
+Run each command yourself in your Linux lab. Before using xargs touch, inspect the input file with cat country.txt to confirm exactly which filenames will be created.
