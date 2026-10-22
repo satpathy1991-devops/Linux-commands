@@ -25,3 +25,8 @@ N.B- Before running uniq command ,data must be sorted
 - /word — search forward for a word
 - n — next search match
 - q — quit
+7. ls | tee files.txt ( to save and show outsput in terminal)
+   ls | tee files.txt | wc -l ( to count no. of files)
+8. ls | echo (no output,because echo accepts only command line arguments)
+   ls | xargs echo" hi"  (now it will give output with echo output)
+   cat country.txt | xargs touch ( it will create files from the output of cat command)
