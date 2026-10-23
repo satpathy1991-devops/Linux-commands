@@ -5,3 +5,8 @@ npm
 node -v
 sudo apt install mysql-server -y
 mysql --version
+ALTER USER 'root'@'localhost'
+IDENTIFIED WITH mysql_native_password BY 'Aditya';
+
+FLUSH PRIVILEGES;
+EXIT;
