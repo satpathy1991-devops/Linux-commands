@@ -4,3 +4,4 @@ nvm install 22
 npm
 node -v
 sudo apt install mysql-server -y
+mysql --version
