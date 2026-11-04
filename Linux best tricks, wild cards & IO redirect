@@ -18,7 +18,20 @@
 => cd -
 5. To run multiple commands in a single go 
  => ls; pwd; free -m
-6. 
+6. To delete the texts without delete a file 
+=> > filename 
+7. tail -f /var/log/messages  < display the live log 
+   tail -f | grep error /var/log/messages  < will display the lines contains error key word
+   tail -f /var/log/messages | grep error  < it will show only last logs 
+8. to note down anything in terminal 
+   script notes.txt < it will record the terminal in notes.txt,after completion  just type CTRL+d
+9. To use calculator in linux terminal 
+  bc  < it will open a calculator ,use quit to get out 
+
+10. ctrl + a < cursor move to start
+    ctrl+e   < cursor move to end
+    ctrl+u   < clear the terminal
+    ctrl+y   <  redo commands in the terminal
 
 
 
