@@ -1,1 +1,5 @@
-
+1. To search any word using wild character *
+ =>  ls file1.* < it will search everything starts with file1
+ =>  ls *.pdf   <  it will search everything ends with .pdf
+2. to create  multiple files/folder
+=> touch linux{1..30}.pdf < it will create Linux1 to Linux 30 in one go
