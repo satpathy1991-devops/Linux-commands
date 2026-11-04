@@ -9,5 +9,7 @@
 => ls ?123  < it will list the string with123 in one character
 => ls ????? < it will search only 5 character strings/numbers
 => ls [abcde]*  < it will list all files that starts with a,b,c,d,e
-
+=> ls *[1-9]*   < it will list all files contains numeric values from 1 to 9
+=> ls *[a-z]*   < it will list all files which contains ato z values
+=> ls test??  < it will list files which start with list and after list it contains 2 characters 
 important points :- Always list before deleting any file
