@@ -5,6 +5,8 @@
 => touch linux{1..30}.pdf < it will create Linux1 to Linux 30 in one go
 => ls linux*.*   < it will list all files start with linux.
 => rm linux{1..10}.pdf < it will remove files contains linux1 to linux10 only
-3.
+3. To search single character
+=> ls ?123  < it will list the string with123 in one character
+=> ls ????? < it will search only 5 character strings/numbers
 
 important points :- Always list before deleting any file
